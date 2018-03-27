@@ -9,7 +9,7 @@ import android.graphics.Bitmap;
  */
 public class Image {
 	static {
-		System.loadLibrary("SharedObject5");
+		System.loadLibrary("imageJni");
 	}
 
 	public native static int test(String[] tag);
